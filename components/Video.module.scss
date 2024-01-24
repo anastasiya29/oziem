@@ -1,0 +1,11 @@
+.video {
+  padding: 20px 0;
+  width: 80vw;
+  margin: auto;
+
+  iframe {
+    margin: 10px 0;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+}
