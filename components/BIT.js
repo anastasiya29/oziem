@@ -2,7 +2,7 @@ export default function BIT() {
   return (
     <>
       <div style={{ backgroundColor: 'white', color: '#353535' }}>
-        <h2>Shows</h2>
+        <h2>Upcoming Shows</h2>
       </div>
 
       <a class="bit-widget-initializer"
