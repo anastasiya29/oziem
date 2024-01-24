@@ -1,0 +1,56 @@
+.banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/squidzilla-album-art-logo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  h1 {
+    display: none;
+  }
+}
+
+.player {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  iframe {
+    border: 0;
+    width: 60vw;
+  }
+}
+
+@supports (-webkit-text-stroke: 2px #353535) {
+  .banner h2 {
+    -webkit-text-stroke: 2px #353535;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    height: 65vh;
+    background-position: -25px;
+
+    h2 {
+      -webkit-text-stroke-width: 1px;
+      letter-spacing: 0rem;
+    }
+  }
+}
+
+@media (max-width: 915px) {
+  .player iframe {
+    width: 80vw;
+  }
+}

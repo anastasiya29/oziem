@@ -1,10 +1,11 @@
-import styles from './Footer.module.css'
+import styles from './Footer.module.scss'
 
 export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
+        <div>© {(new Date().getFullYear())} OZIEM</div>
+        <div>We do not use cookies and we do not track you</div>
       </footer>
     </>
   )
