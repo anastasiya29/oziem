@@ -19,3 +19,9 @@
     font-weight: 600;
   }
 }
+
+@media (max-width: 480px) {
+  .footer {
+    height: 210px;
+  }
+}
