@@ -1,7 +1,7 @@
 import Head from '@components/Head'
 import Banner from '@components/Banner'
 import Links from '@components/Links'
-import BIT from '@components/BIT'
+import Shows from '@components/Shows'
 import Video from '@components/Video'
 import Footer from '@components/Footer'
 
@@ -12,7 +12,7 @@ export default function Home() {
       <Head />
       <Banner />
       <Links />
-      <BIT />
+      <Shows />
       <Video />
       <Footer />
     </div >

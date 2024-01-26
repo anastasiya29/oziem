@@ -1,8 +1,10 @@
-export default function BIT() {
+import styles from './Shows.module.scss'
+
+export default function Shows() {
   return (
-    <>
-      <div style={{ backgroundColor: 'white', color: '#353535' }}>
-        <h2>Upcoming Shows</h2>
+    <div className={styles.shows}>
+      <div>
+        <h2>🦀 Upcoming Shows 🦀</h2>
       </div>
 
       <a class="bit-widget-initializer"
@@ -65,7 +67,7 @@ export default function BIT() {
         data-follow-section-alignment="center"
         data-follow-section-header-text="Get updates on new shows, new music, and more."
         data-follow-section-cta-size="medium"
-        data-follow-section-cta-text="FOLLOW"
+        data-follow-section-cta-text="FOLLOW on BandsInTown"
         data-follow-section-cta-icon="true"
         data-follow-section-cta-text-color="#FFFFFF"
         data-follow-section-cta-bg-color="#4A4A4A"
@@ -98,10 +100,10 @@ export default function BIT() {
         data-layout-breakpoint="800"
         data-app-id=""
         data-affil-code=""
-        data-bit-logo-position="topRight"
+        data-bit-logo-position="bottomRight"
         data-bit-logo-color="white"
 
       ></a>
-    </>
+    </div>
   )
 }
