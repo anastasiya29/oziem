@@ -1,0 +1,16 @@
+.border {
+  background-image: url('/border.png');
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: top;
+  position: relative;
+  height: 30px;
+  top: -30px;
+}
+
+@media (max-width: 480px) {
+  .border {
+    height: 20px;
+    top: -20px;
+  }
+}
