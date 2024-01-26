@@ -1,19 +1,40 @@
 import styles from '@components/Video.module.scss'
 
+var VideoFrame = ({ title, description, id, start }) => {
+  var url = `https://www.youtube.com/embed/${id}` + (start ? `?start=${start}` : '');
+  return (
+    <div className={styles.video}>
+      <div>{description}</div>
+      <iframe
+        src={url}
+        title={title}
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+  )
+}
+
 export default function Video() {
   return (
-    <div>
+    <div className={styles.videoContainer}>
       <h2>Videos</h2>
 
-      <div className={styles.video}>
-        <div>That time when Bill had a mosh inside that needed to come out...</div>
-        <iframe
-          src="https://www.youtube.com/embed/Q7qMVn3j4s8?si=5hOgHg7xtkJdGK0m&amp;start=4291"
-          title="OZIEM live from The Stone Church in Brattleboro VA 2023-01-27"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </div>
+      <VideoFrame
+        title="OZIEM live from The Stone Church in Brattleboro VA 2023-01-27"
+        description="That time when Bill had a mosh inside that needed to come out..."
+        id="Q7qMVn3j4s8"
+        start="4291"
+      />
+
+      <VideoFrame
+        title="Motif's Between The Notes Featuring: OZIEM | LIVE Podcast"
+        description="That time when Oziem performed on a fancy podcast stage..."
+        id="_WlfqgngQQI"
+        start="983"
+      />
+
     </div>
   )
 }
