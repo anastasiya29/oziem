@@ -15,6 +15,7 @@ export default function Home() {
       <Border />
       <Links />
       <Shows />
+      <Border />
       <Video />
       <Footer />
     </div >
