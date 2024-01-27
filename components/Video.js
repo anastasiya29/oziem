@@ -30,9 +30,15 @@ export default function Video() {
 
       <VideoFrame
         title="Motif's Between The Notes Featuring: OZIEM | LIVE Podcast"
-        description="That time when Oziem performed on a fancy podcast stage..."
+        description="That time when we performed on a fancy podcast stage..."
         id="_WlfqgngQQI"
         start="983"
+      />
+
+      <VideoFrame
+        title="OZIEM - Jäger Time (Unofficial Music Video)"
+        description="That time when Sean cut together a kick-ass Jäger Time video from our shenanigans..."
+        id="HFbzFJfnWOE"
       />
 
     </div>
