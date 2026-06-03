@@ -22,22 +22,12 @@ export default function Video() {
       <h2>Videos</h2>
 
       <VideoFrame
-        title="OZIEM live from The Stone Church in Brattleboro VA 2023-01-27"
-        description="That time when Bill had a mosh inside that needed to come out..."
-        id="Q7qMVn3j4s8"
-        start="4291"
-      />
-
-      <VideoFrame
-        title="Motif's Between The Notes Featuring: OZIEM | LIVE Podcast"
-        description="That time when we performed on a fancy podcast stage..."
-        id="_WlfqgngQQI"
-        start="983"
+        title="MOZIEM @ Harvest Fest 2022/Freedom Field"
+        id="fnS7vVqXqSo"
       />
 
       <VideoFrame
         title="OZIEM - Jäger Time (Unofficial Music Video)"
-        description="That time when Sean cut together a kick-ass Jäger Time video from our shenanigans..."
         id="HFbzFJfnWOE"
       />
 
