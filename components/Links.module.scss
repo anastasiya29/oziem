@@ -1,9 +1,14 @@
+@use '../styles/variables.scss' as variables;
+@use '../styles/containers.scss' as containers;
+
 .links {
+  @extend .container;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0 0 30px 0;
-  background-color: #353535;
+  border-top: 10px solid black;
+  background-color: variables.$blue;
 
   .inlineFlex {
     display: inline-flex;
@@ -20,7 +25,7 @@
     width: 140px;
     padding: 8px 10px;
     border-radius: 5px;
-    background-color: #0050a7;
+    background-color: variables.$green;
     color: white;
     border: none;
     margin: 10px;

@@ -5,6 +5,7 @@ import Head from '@components/Head'
 import Links from '@components/Links'
 import Shows from '@components/Shows'
 import Video from '@components/Video'
+import Merch from '@components/Merch'
 
 export default function Home() {
 
@@ -12,10 +13,9 @@ export default function Home() {
     <div className='container'>
       <Head />
       <Banner />
-      <Border />
       <Links />
       <Shows />
-      <Border />
+      <Merch />
       <Video />
       <Footer />
     </div >

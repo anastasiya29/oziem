@@ -1,0 +1,8 @@
+@use './variables.scss' as variables;
+
+.container,
+.links,
+.shows,
+.merch {
+  background: variables.$red url("/flannel-background.png") repeat;
+}

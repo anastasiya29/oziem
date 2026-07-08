@@ -15,9 +15,9 @@ export default function Shows() {
 
         data-artist-name="id_13516413"
 
-        data-background-color="#ffffff"
+        data-background-color="#53de03"
         data-separator-color="#DDDDDD"
-        data-text-color="#424242"
+        data-text-color="#FFFFFF"
         data-font="Helvetica"
         data-auto-style="true"
 
@@ -46,13 +46,13 @@ export default function Shows() {
         data-event-ticket-text="TICKETS"
         data-event-ticket-icon=""
         data-event-ticket-cta-text-color="#FFFFFF"
-        data-event-ticket-cta-bg-color="#4A4A4A"
+        data-event-ticket-cta-bg-color="#d600e3"
         data-event-ticket-cta-border-color="#4A4A4A"
         data-event-ticket-cta-border-width="0px"
         data-event-ticket-cta-border-radius="4px"
 
         data-sold-out-button-text-color="#FFFFFF"
-        data-sold-out-button-background-color="#4A4A4A"
+        data-sold-out-button-background-color="#d600e3"
         data-sold-out-button-border-color="#4A4A4A"
         data-sold-out-button-clickable="true"
 
@@ -74,7 +74,7 @@ export default function Shows() {
         data-follow-section-cta-text="FOLLOW on BandsInTown"
         data-follow-section-cta-icon="true"
         data-follow-section-cta-text-color="#FFFFFF"
-        data-follow-section-cta-bg-color="#4A4A4A"
+        data-follow-section-cta-bg-color="#d600e3"
         data-follow-section-cta-border-color="#4A4A4A"
         data-follow-section-cta-border-width="0px"
         data-follow-section-cta-border-radius="4px"
@@ -86,7 +86,7 @@ export default function Shows() {
         data-play-my-city-cta-text="REQUEST A SHOW"
         data-play-my-city-cta-icon="true"
         data-play-my-city-cta-text-color="#FFFFFF"
-        data-play-my-city-cta-bg-color="#4A4A4A"
+        data-play-my-city-cta-bg-color="#d600e3"
         data-play-my-city-cta-border-color="#4A4A4A"
         data-play-my-city-cta-border-width="0px"
         data-play-my-city-cta-border-radius="4px"
