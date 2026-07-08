@@ -22,8 +22,8 @@ export default function Video() {
       <h2>Videos</h2>
 
       <VideoFrame
-        title="MOZIEM @ Harvest Fest 2022/Freedom Field"
-        id="fnS7vVqXqSo"
+        title="OZIEM - 'Pulling the Pork' Music Video"
+        id="yN54Fe90B6Q"
       />
 
       <VideoFrame
