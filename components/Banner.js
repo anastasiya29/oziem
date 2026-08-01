@@ -8,7 +8,7 @@ export default function Banner() {
       <div className={styles.player}>
         <h2>NEW SINGLE FROM OUR UPCOMING ALBUM - LISTEN NOW</h2>
         <iframe
-          src="https://bandcamp.com/EmbeddedPlayer/track=3562749017/size=large/bgcol=ffffff/linkcol=0050a7/tracklist=false/artwork=small/transparent=true/"
+          src="https://bandcamp.com/EmbeddedPlayer/track=3673999251/size=large/bgcol=ffffff/linkcol=0050a7/tracklist=false/artwork=small/transparent=true/"
           seamless></iframe>
       </div>
     </div>
