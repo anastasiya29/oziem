@@ -22,8 +22,6 @@ export default function OziemHead() {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <meta name="twitter:card" content="summary_large_image" />
-
-      <script charset="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></script>
     </Head>
   )
 }
