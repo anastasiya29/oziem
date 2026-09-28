@@ -4,6 +4,7 @@
 .shows {
   border-top: 10px solid black;
   background-color: variables.$green;
+  padding: 0 25px;
 
   .bit-follow-section-cta {
     text-transform: none;
@@ -12,5 +13,72 @@
   .bit-nav-bar-container,
   .bit-upcoming-events {
     background-color: #53de03;
+  }
+}
+
+.show {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: variables.$green;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  flex-direction: row;
+
+  a {
+    color: black;
+  }
+
+  .date {
+
+    width: 10%;
+
+    span {
+      margin-right: 5px;
+    }
+  }
+
+  .info {
+    width: 90%;
+    display: flex;
+
+    div {
+      width: 33%;
+    }
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .show {
+    .date {
+      width: 30%;
+
+      font-size: 1.5em;
+      display: flex;
+      flex-direction: column;
+      background-color: variables.$purple;
+      border-radius: 40px;
+      padding: 9px;
+      margin-right: 5px;
+    }
+
+    .info {
+      flex-direction: column;
+      line-height: 1.3em;
+      width: 70%;
+
+      div {
+        width: auto;
+      }
+
+      .city {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+    }
   }
 }
