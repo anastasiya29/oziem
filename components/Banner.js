@@ -6,9 +6,9 @@ export default function Banner() {
       <h1>OZIEM</h1>
 
       <div className={styles.player}>
-        <h2>NEW SINGLE FROM OUR UPCOMING ALBUM - LISTEN NOW</h2>
+        <h2>NEW ALBUM OUT NOW</h2>
         <iframe
-          src="https://bandcamp.com/EmbeddedPlayer/track=3673999251/size=large/bgcol=ffffff/linkcol=0050a7/tracklist=false/artwork=small/transparent=true/"
+          src="https://bandcamp.com/EmbeddedPlayer/album=2528098112/size=large/bgcol=ffffff/linkcol=0050a7/tracklist=false/artwork=small/transparent=true/"
           seamless></iframe>
       </div>
     </div>
