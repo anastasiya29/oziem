@@ -3,6 +3,26 @@
 
 .merch {
   @extend .container;
-  border-top: 10px solid black;
   background-color: variables.$purple;
+  padding: 20px;
+
+  .inventory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .inventoryItem {
+      padding: 15px;
+      margin: 10px;
+      background-color: variables.$blue;
+      border-radius: 10px;
+
+      img {
+        height: 300px;
+        border-radius: 10px;
+      }
+    }
+
+
+  }
 }
