@@ -28,7 +28,7 @@ var Show = ({ dateMonth, dateDay, venue, venueLink, city, info }) => {
         <div>{info}</div>
       </div>
     </div>
-  )
+  );
 }
 
 export default function Shows() {
