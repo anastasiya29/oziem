@@ -2,9 +2,9 @@
 @use '../styles/containers.scss' as containers;
 
 .shows {
-  border-top: 10px solid black;
+  @extend .container;
   background-color: variables.$green;
-  padding: 0 25px 15px 25px;
+  padding: 20px;
 }
 
 .show {

@@ -1,5 +1,4 @@
 import Banner from '@components/Banner'
-import Border from '@components/Border'
 import Footer from '@components/Footer'
 import Head from '@components/Head'
 import Links from '@components/Links'

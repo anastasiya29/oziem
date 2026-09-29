@@ -1,6 +1,9 @@
+@use '../styles/containers.scss' as containers;
+
 .videoContainer {
+  @extend .container;
+  padding: 20px;
   color: white;
-  border-top: 10px solid black;
 
   .video {
     width: 80vw;
