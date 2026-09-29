@@ -6,7 +6,7 @@ export default function Merch() {
       <div>
         <h2>MERCH</h2>
 
-        <div className={styles.inlineFlex}>
+        <div>
           Coming soon...
         </div>
       </div>

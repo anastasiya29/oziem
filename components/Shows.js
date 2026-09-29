@@ -35,11 +35,7 @@ export default function Shows() {
   return (
     <div className={styles.shows}>
       <div>
-        <h2>
-          <span className='desktop-only'>🦀 </span>
-          Upcoming Shows
-          <span className='desktop-only'> 🦀</span>
-        </h2>
+        <h2>Upcoming Shows</h2>
       </div>
 
       {
