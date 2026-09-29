@@ -26,6 +26,7 @@ export default function Links() {
         <div className={styles.buttonList}>
           <a target="_blank" href="https://www.facebook.com/Oziemofficial/">Meta</a>
           <a target="_blank" href="https://www.instagram.com/oziemofficial/">Instagram</a>
+          oziemtheband@gmail.com
         </div>
       </div>
     </div>
